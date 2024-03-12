@@ -1,0 +1,32 @@
+:root {
+    /* font-size */
+    --fs-xsm: 10.24px;
+    --fs-sm: 12.8px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 25px;
+    --fs-xxl: 39.6px;
+    --fs-xxxl: 48.83px;
+    --fs-xxxxl: 64px;
+    /* font-color */
+    --fc-orange: #ff5300;
+    --fc-black: #373737;
+    --fc-gray: #7b7b7b;
+    --fc-primary-gray: #efefef;
+    --fc-white: #fff;
+    --fc-primary-white: #fff7f4;
+    --fc-black-shadow: #0000001a;
+
+}
+@media(min-width:576px) {
+.heading-1 {
+        --fs-xl: 48.83px;
+    }
+    .heading-2{
+        --fs-lg:39px;
+    }
+}
+@media(min-width:768px) {
+    
+}
+
