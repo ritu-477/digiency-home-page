@@ -10,6 +10,7 @@
     --fs-xxxxl: 64px;
     /* font-color */
     --fc-orange: #ff5300;
+    --fc-primary-orange: #FF5300BF;
     --fc-black: #373737;
     --fc-gray: #7b7b7b;
     --fc-primary-gray: #efefef;
@@ -29,6 +30,14 @@
     }
 
     .ux-design {
+        --fs-lg: 25px;
+    }
+
+    .all {
+        --fs-md: 20px;
+    }
+
+    .template {
         --fs-lg: 25px;
     }
 }

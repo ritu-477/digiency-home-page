@@ -26,6 +26,7 @@
     font-size: var(--fs-xxl);
     line-height: 46px;
     color: var(--fc-orange);
+    font-weight: 600;
 }
 
 .iency {
@@ -33,6 +34,7 @@
     font-size: var(--fs-xxl);
     line-height: 46px;
     color: var(--fc-black);
+     font-weight: 600;
 }
 
 .home {
@@ -61,6 +63,7 @@
 
 .talkbtn:hover {
     color: var(--fc-orange);
+    border: 1px solid var(--fc-orange);
 }
 
 .heading-1 {
@@ -136,12 +139,8 @@
     line-height: 24px;
     color: var(--fc-orange);
     text-align: center;
-}
-
-.our-s {
     position: relative;
 }
-
 
 .our-s::before {
     content: "";
@@ -219,9 +218,6 @@
     font-weight: 400;
     line-height: 24px;
     color: var(--fc-orange);
-}
-
-.about {
     position: relative;
 }
 
@@ -266,9 +262,71 @@
     cursor: pointer;
 }
 
+/* ......................................section-4....................*/
+.all {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--fc-gray);
+    padding: 15px 50px;
+    white-space: nowrap;
+    border-radius: 10px;
+}
 
+.all:hover {
+    background-color: var(--fc-orange);
+    color: var(--fc-white);
+}
 
+::-webkit-scrollbar {
+    height: 5px;
+}
 
+::-webkit-scrollbar-track {
+    background: var(--fc-white);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--fc-orange);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--fc-orange);
+}
+
+.paddding-b {
+    padding-bottom: 30px;
+}
+
+.tamplate-card {
+    position: absolute;
+    background: var(--fc-primary-orange);
+    transition: all 200ms linear;
+    padding: 20px 20px 21px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    right: 50%;
+    opacity: 1;
+    transform: translate(50%, -50%);
+    opacity: 0;
+}
+
+.template {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--fc-white);
+    white-space: nowrap;
+}
+
+.img-card:hover .tamplate-card {
+    opacity: 1;
+}
 
 
 
@@ -329,5 +387,9 @@
 
     .padding-1 {
         padding-bottom: 150px;
+    }
+
+    .tamplate-card {
+        padding: 64px 35px 64px 45px;
     }
 }
