@@ -443,7 +443,73 @@
     max-width: 340px;
 }
 
+/* /* .......................................................news-letter-section *..................... */
+.newsletter-box {
+    padding: 51px 40px 51px 40px;
+    box-shadow: 0px 1px 4px 0px var(--fc-black-shadow);
+    border-radius: 10px;
+    background-color: var(--fc-orange);
+}
 
+.stay {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    line-height: 59px;
+    color: var(--fc-white);
+}
+
+.news-letter {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    color: var(--fc-white);
+}
+
+.news-letter::after {
+    content: "";
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background: var(--fc-white);
+    margin-left: 12px;
+    top: 17px;
+}
+
+   .subscribe-now {
+       font-family: 'Poppins', sans-serif;
+       font-size: var(--fs-lg);
+       font-weight: 500;
+       line-height: 30px;
+       color: var(--fc-white);
+       background-color: var(--fc-orange);
+       border-radius: 5px;
+       padding: 15px 33px 15px 35px;
+       border: 1px solid var(--fc-orange);
+       white-space: nowrap;
+   }
+
+.subscribe-now:hover {
+    color: var(--fc-orange);
+    background-color: var(--fc-white);
+}
+
+.form {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--fc-gray);
+    border: none;
+}
+
+.mail-box {
+    padding: 5px 5px 5px 25px;
+    background-color: var(--fc-white);
+    border-radius: 5px;
+}
 
 
 
@@ -488,6 +554,12 @@
         right: 0;
     }
 }
+
+ @media(max-width:765.99px) {
+    .wrap {
+        flex-wrap: wrap;
+    }
+} 
 
 @media(min-width:576px) and (max-width:767.99px) {
     .card-box::after {
@@ -545,10 +617,12 @@
     .bordr-right1 {
         border-right: 3px solid var(--fc-white);
     }
+
 }
 
 @media(min-width:992px) {
     .bordr-right2 {
         border-right: 3px solid var(--fc-white);
     }
+     
 }

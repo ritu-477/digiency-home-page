@@ -2,8 +2,8 @@
     /* font-size */
     --fs-xsm: 10.24px;
     --fs-sm: 12.8px;
-    --fs-md: 16px;
     --fs-xlg: 15px;
+    --fs-md: 16px;
     --fs-lg: 20px;
     --fs-xl: 25px;
     --fs-xxl: 39.6px;
@@ -53,14 +53,28 @@
     .stellar {
         --fs-xlg: 18px;
     }
+
+    .stay {
+        --fs-lg: 30px;
+    }
 }
-@media(min-width:992px){
+
+@media(min-width:992px) {
     .stellar {
-            --fs-xlg: 16px;
-        }
+        --fs-xlg: 16px;
+    }
+
+    .stay {
+        --fs-lg: 31px;
+    }
 }
+
 @media(min-width:1200px) {
     .stellar {
         --fs-xlg: 20px;
+    }
+
+    .stay {
+        --fs-lg: 39px;
     }
 }
