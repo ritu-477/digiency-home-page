@@ -34,7 +34,7 @@
     font-size: var(--fs-xxl);
     line-height: 46px;
     color: var(--fc-black);
-     font-weight: 600;
+    font-weight: 600;
 }
 
 .home {
@@ -328,11 +328,120 @@
     opacity: 1;
 }
 
+/* ................................................our-capabilities........................ */
+.para-3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--fc-gray);
+    max-width: 570px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
 
+.card-1 {
+    width: 125px;
+    height: 108px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px var(--fc-black-shadow);
+    padding: 11px 20px 15px 19px;
+}
 
+.number1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--fc-orange);
+    text-align: center;
+}
 
+.softwer {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 300;
+    line-height: 19px;
+    color: var(--fc-black);
+    text-align: center;
+}
 
+.white-space {
+    white-space: nowrap;
+}
 
+.card-box {
+    background-color: var(--fc-orange);
+    border-radius: 10px;
+    padding: 69px 56px 69px 60px;
+    margin-top: 120px;
+}
+
+.number2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 59px;
+    color: var(--fc-white);
+}
+
+.experts {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--fc-white);
+}
+
+/* .....................................our-blog-section....................................*/
+.p-60 {
+    padding-bottom: 60px;
+}
+
+.blog-box {
+    padding: 15px 15px 30px 15px;
+    box-shadow: 0px 1px 4px 0px var(--fc-black-shadow);
+    border-radius: 10px;
+    background: var(--fc-white);
+}
+
+.read-more {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-lg);
+    line-height: 25px;
+    color: var(--fc-white);
+    font-weight: 500;
+    padding: 13px 23px 12px 22px;
+    border-radius: 5px;
+    background-color: var(--fc-orange);
+    border: 1px solid var(--fc-orange);
+}
+
+.read-more:hover {
+    color: var(--fc-orange);
+    background-color: var(--fc-white);
+}
+
+.max-w1 {
+    max-width: 338px;
+}
+
+.month {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-xsm);
+    line-height: 19px;
+    color: var(--fc-black);
+}
+
+.stellar {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xlg);
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 340px;
+}
 
 
 
@@ -380,6 +489,28 @@
     }
 }
 
+@media(min-width:576px) and (max-width:767.99px) {
+    .card-box::after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 71%;
+        background: var(--fc-white);
+        top: 69px;
+        right: 50%;
+    }
+
+    .card-box::before {
+        content: "";
+        position: absolute;
+        width: 83%;
+        height: 3px;
+        background: var(--fc-white);
+        top: 50%;
+        right: 60px;
+    }
+}
+
 @media(min-width:576px) {
     .mt-100 {
         margin-top: 150px;
@@ -391,5 +522,33 @@
 
     .tamplate-card {
         padding: 64px 35px 64px 45px;
+    }
+
+    .bordr-right1 {
+        display: none;
+    }
+
+    .bordr-right {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .bordr-right2 {
+        display: none;
+    }
+
+    .bordr-right {
+        border-right: 3px solid var(--fc-white);
+    }
+
+    .bordr-right1 {
+        border-right: 3px solid var(--fc-white);
+    }
+}
+
+@media(min-width:992px) {
+    .bordr-right2 {
+        border-right: 3px solid var(--fc-white);
     }
 }

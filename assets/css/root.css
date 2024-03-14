@@ -3,6 +3,7 @@
     --fs-xsm: 10.24px;
     --fs-sm: 12.8px;
     --fs-md: 16px;
+    --fs-xlg: 15px;
     --fs-lg: 20px;
     --fs-xl: 25px;
     --fs-xxl: 39.6px;
@@ -40,6 +41,26 @@
     .template {
         --fs-lg: 25px;
     }
-}
 
-@media(min-width:768px) {}
+    .number2 {
+        --fs-xl: 39px;
+    }
+
+    .experts {
+        --fs-md: 20px;
+    }
+
+    .stellar {
+        --fs-xlg: 18px;
+    }
+}
+@media(min-width:992px){
+    .stellar {
+            --fs-xlg: 16px;
+        }
+}
+@media(min-width:1200px) {
+    .stellar {
+        --fs-xlg: 20px;
+    }
+}
