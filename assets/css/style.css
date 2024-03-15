@@ -211,6 +211,7 @@
     row-gap: 30px;
 }
 
+
 /* ..........................................section-3...........................*/
 .about {
     font-family: 'Poppins', sans-serif;
@@ -260,6 +261,122 @@
 
 .curser {
     cursor: pointer;
+}
+
+/* ....................................................slider-section......................... */
+.slider-box1 {
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 1px var(--fc-black-shadow);
+    padding: 20px;
+    background-color: var(--fc-white);
+}
+
+.phillip {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--fc-orange);
+    white-space: nowrap;
+}
+
+.ceo {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 300;
+    line-height: 19px;
+    color: var(--fc-gray);
+    white-space: nowrap;
+}
+
+.w-60 {
+    width: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.arrowbtnnext {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid var(--fc-black);
+    background: none;
+}
+
+.arrowbtnnext:hover {
+    border: 1px solid var(--fc-orange);
+}
+
+.arrowbtnprev:hover {
+    border: 1px solid var(--fc-orange);
+}
+
+.arrowbtnprev:hover svg path {
+    fill: var(--fc-orange);
+}
+
+.arrowbtnnext:hover svg path {
+    fill: var(--fc-orange);
+}
+
+.absolute1 {
+    position: absolute;
+    top: 42%;
+    left: -5%;
+}
+
+.absolute2 {
+    position: absolute;
+    top: 42%;
+    right: -5%;
+}
+
+.arrowbtnprev {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid var(--fc-black);
+    background: none;
+}
+
+.slick-track {
+    gap: 11px !important;
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: var(--fc-orange);
+}
+
+.lorem2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--fc-gray);
+    max-width: 325px;
 }
 
 /* ......................................section-4....................*/
@@ -478,18 +595,22 @@
     top: 17px;
 }
 
-   .subscribe-now {
-       font-family: 'Poppins', sans-serif;
-       font-size: var(--fs-lg);
-       font-weight: 500;
-       line-height: 30px;
-       color: var(--fc-white);
-       background-color: var(--fc-orange);
-       border-radius: 5px;
-       padding: 15px 33px 15px 35px;
-       border: 1px solid var(--fc-orange);
-       white-space: nowrap;
-   }
+.subscribe-now {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--fc-white);
+    background-color: var(--fc-orange);
+    border-radius: 5px;
+    padding: 15px 12px 15px 14px;
+    border: 1px solid var(--fc-orange);
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 23px;
+}
 
 .subscribe-now:hover {
     color: var(--fc-orange);
@@ -503,14 +624,105 @@
     line-height: 24px;
     color: var(--fc-gray);
     border: none;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 25px;
+    border-radius: 5px;
+    outline: none;
 }
 
 .mail-box {
-    padding: 5px 5px 5px 25px;
     background-color: var(--fc-white);
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
+/* ...............................................footer............................ */
+.bg-image {
+    background-image: url(../images/footerbgimage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.padding-f {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.lorem1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--fc-white);
+    max-width: 270px;
+    padding-top: 20px;
+}
+
+.text-c {
+    color: var(--fc-white);
+}
+
+.location {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--fc-orange);
+}
+
+.utica {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--fc-white);
+    max-width: 265px;
+    padding-top: 20px;
+}
+
+.circle-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--fc-white);
+}
+
+.svg:hover path {
+    fill: var(--fc-orange);
+    transition: 0.5s;
+}
+
+.mt-30 {
+    margin-top: 31px;
+}
+
+.bottom-br {
+    border-top: 1px solid var(--fc-white);
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-md);
+    line-height: 24px;
+    color: var(--fc-white);
+
+}
+
+.circle-ellips {
+    width: 58px;
+    height: 58px;
+    border-radius: 50px;
+    background-color: var(--fc-orange);
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+}
 
 
 @media(max-width:1200px) {
@@ -555,11 +767,11 @@
     }
 }
 
- @media(max-width:765.99px) {
+@media(max-width:765.99px) {
     .wrap {
         flex-wrap: wrap;
     }
-} 
+}
 
 @media(min-width:576px) and (max-width:767.99px) {
     .card-box::after {
@@ -603,6 +815,15 @@
     .bordr-right {
         display: none;
     }
+
+    .slick-track {
+        gap: 40px !important;
+        display: flex !important;
+    }
+
+    .subscribe-now {
+        padding: 15px 33px 15px 39px;
+    }
 }
 
 @media(min-width:768px) {
@@ -618,11 +839,21 @@
         border-right: 3px solid var(--fc-white);
     }
 
+    .slider-box1 {
+        padding: 25px;
+    }
+
 }
 
 @media(min-width:992px) {
     .bordr-right2 {
         border-right: 3px solid var(--fc-white);
     }
-     
+}
+
+@media(min-width:1400px) {
+    .slick-dots li button:before {
+        display: none;
+
+    }
 }

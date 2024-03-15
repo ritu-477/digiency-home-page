@@ -55,7 +55,29 @@
     }
 
     .stay {
-        --fs-lg: 30px;
+        --fs-lg: 39px;
+    }
+
+    .phillip {
+        --fs-md: 16px;
+    }
+
+    .lorem2 {
+        --fs-sm: 13px;
+    }
+
+    .utica {
+        --fs-md: 20px;
+    }
+}
+
+@media(min-width:768px) {
+    .phillip {
+        --fs-md: 18px;
+    }
+
+    .lorem2 {
+        --fs-sm: 14px;
     }
 }
 
@@ -64,8 +86,12 @@
         --fs-xlg: 16px;
     }
 
-    .stay {
-        --fs-lg: 31px;
+    .phillip {
+        --fs-md: 20px;
+    }
+
+    .lorem2 {
+        --fs-sm: 16px;
     }
 }
 
@@ -74,7 +100,4 @@
         --fs-xlg: 20px;
     }
 
-    .stay {
-        --fs-lg: 39px;
-    }
 }
