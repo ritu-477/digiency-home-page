@@ -47,6 +47,7 @@
 
 .home:hover {
     color: var(--fc-orange);
+    transition: 1s;
 }
 
 .talkbtn {
@@ -64,6 +65,7 @@
 .talkbtn:hover {
     color: var(--fc-orange);
     border: 1px solid var(--fc-orange);
+    transition: 1s;
 }
 
 .heading-1 {
@@ -101,6 +103,7 @@
 .get-start:hover {
     color: var(--fc-orange);
     background-color: var(--fc-white);
+    transition: 1s;
 }
 
 .mt-100 {
@@ -315,10 +318,12 @@
 
 .arrowbtnprev:hover svg path {
     fill: var(--fc-orange);
+    transition: 0.5s;
 }
 
 .arrowbtnnext:hover svg path {
     fill: var(--fc-orange);
+    transition: 0.5s;
 }
 
 .absolute1 {
@@ -398,6 +403,7 @@
 .all:hover {
     background-color: var(--fc-orange);
     color: var(--fc-white);
+    transition: 1s;
 }
 
 ::-webkit-scrollbar {
@@ -447,6 +453,10 @@
 
 .img-card:hover .tamplate-card {
     opacity: 1;
+}
+
+.overflow-auto {
+    margin-bottom: 15px;
 }
 
 /* ................................................our-capabilities........................ */
@@ -514,6 +524,10 @@
     color: var(--fc-white);
 }
 
+.max-img {
+    max-width: 611px;
+}
+
 /* .....................................our-blog-section....................................*/
 .p-60 {
     padding-bottom: 60px;
@@ -541,6 +555,7 @@
 .read-more:hover {
     color: var(--fc-orange);
     background-color: var(--fc-white);
+    transition: 1s;
 }
 
 .max-w1 {
@@ -619,6 +634,7 @@
 .subscribe-now:hover {
     color: var(--fc-orange);
     background-color: var(--fc-white);
+    transition: 1s;
 }
 
 .form {
@@ -768,7 +784,7 @@
         flex-direction: column;
     }
 
-    .overflowhidden {
+    .overflow-hidden {
         overflow: hidden;
     }
 

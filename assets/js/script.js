@@ -3,7 +3,7 @@ const menulist = document.querySelector('.menulist');
 
 iconbox.addEventListener('click', function () {
     menulist.classList.toggle('show');
-    document.body.classList.toggle(".overflowhidden");
+    document.body.classList.toggle("overflow-hidden");
 });
 
 const mybutton = document.querySelector(".elipsBtn");
