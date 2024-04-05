@@ -221,7 +221,8 @@
 .max-w2 {
     max-width: 553px;
 }
-.max-tw{
+
+.max-tw {
     max-width: 530px;
 }
 
@@ -749,7 +750,7 @@
     .iconbox>span {
         width: 100%;
         height: 5px;
-        background-color: var(--fc-orange);
+        background-color: var(--fc-black);
     }
 
     .menulist {
